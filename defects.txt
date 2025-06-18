@@ -1,0 +1,53 @@
+При выполнении работы найдены и исправлены следующие ошибки:
+
+Файл index.html.
+1. Лишний пробел в подвале страницы. Сейчас "202 4", а должно быть "2024".
+2. <div class="card animated fadeIn">
+         <center><img class="center animated rollIn" src="img/ava.png" alt="avatar"></center>
+         <hr>. нет закрытия отдела </div>.скобки с <center> лишние.
+
+3.  <p class="subtitle">Тетирование WEB-приложений</p>
+         </p> тут лишняя </p>
+4. <p class="location" align="center"> тут не прописан стиль должно быть так <p class="location" style="text-align: center;">
+5. Опечатка в слове Windos должно быть Windows.
+6. <p class="location" align="center"> не прописан стиль .должно быть так <p class="location" style="text-align: center;">
+7.<p class="location" align="center"> не прописан стиль .должно быть так <p class="location" style="text-align: center;">
+8.отсутствует кнопка возврата на главную страницу должно быть так <footer>
+         <p class="location" style="text-align: center;">
+            <a href="mac.html">Вернутся на главную</a>
+         </p>
+Файл cmd.html.
+1. <li>DIR – Изменить каталог</li> ошибка в описании команды,должно быть так <li>DIR – Отображение файлов и папок в текущем каталоге</li>
+
+2.<li>CD – Отображение файлов и папок в текущем каталоге</li> ошибка в описании команды ,должно быть так <li>CD – Изменить каталог</li>
+
+3.<li>MAKEDIR – Создать папку</li> опечатка в написании команды,должно быть так <li>MKDIR – Создать папку</li>
+4.<li>DATE – Выводит или устанавливает системное время</li> ошибка в описании,должно быть так  <li>TIME – Выводит или устанавливает системное время</li>
+5.<li>TIME – Выводит или устанавливает текущую дату</li> ошибка в описании,должно быть так <li>DATE – Выводит или устанавливает текущую дату</li>
+6. &copy; 202 4. SkyPro лишний пробел должно быть так  &copy; 2024. SkyPro
+7.отсутствует кнопка вернуться на гланую страницу,должно быть так <footer>
+         <p class="location" style="text-align: center;">
+            <a href="mac.html">Вернутся на главную</a>
+         </p>
+Файл mac.html.
+1. <li>ls - расшифровывается как "List files in the directory", что переводится как "перечислить все файлы в папке" или "вывести на экран список файлов в папке".</li> ошибка в переводе,должно быть так и можно улучшить<li><b>ls</b> — "List files" — вывести список файлов и папок в текущей директории.</li>
+2. <li>pwd - расшифровывается как "Present working directory", что переводится как "текущая рабочая директория". То есть команда pwd показывает, в какой сейчас папке мы находимся. </l опечатка ,должно быть так и можно улучшитьli><b>pwd</b> — "Print working directory" — показать полный путь текущей папки.</li>
+3.<li>mv - расшифровывается как "Make directory", что переводится как "создать папку".</li> ошибка в переводе команды,должно быть так и улучшить li><b>mv</b> — "Move" — переместить или переименовать файл/папку. Например, <code>mv oldname.txt newname.txt</code>.</li>
+4.li>mkdir - расфшифровывается как"Move", что переводится как "переместить", "передвинуть". С помощью нее можно переместить, переименовать или удалить файл/</li> ошибка в описании команды,должно быть так и улучшить <li><b>mkdir</b> — "Make directory" — создать новую папку. Например, <code>mkdir new_folder</code>.</li>
+5. <footer class="animated fadeIn">
+         <p class="location" align="center">
+            <a href="../index.html">Вернуться на главную</a>
+         </p> не прописан стиль ,должно быть так и улучшить <footer class="animated fadeIn" style="text-align: center; padding: 20px 0; background-color: #f9f9f9; font-size: 14px; color: #666;">
+  <p class="location" style="margin: 0;">
+    <a href="../index.html" style="text-decoration: none; color: #2980b9;">Вернуться на главную</a>
+  </p>
+Файл git.html
+1.<footer class="animated fadeIn">
+         <p class="location" align="center">
+            <a href="mac.html">Вернуся на главную</a> не прописан стиль ,должно быть так <footer>
+         <p class="location" style="text-align: center;">
+            <a href="mac.html">Вернутся на главную</a>
+         </p>
+
+2.Лишний пробел в подвале &copy; 202 4. SkyPro, должно быть так  &copy; 2024. SkyPro
+3. ...
